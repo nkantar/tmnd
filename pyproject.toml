@@ -1,0 +1,17 @@
+[project]
+name = "tmnd"
+version = "0.1.0"
+description = "TheMixNeverDies.com"
+authors = [
+    { name = "Nik Kantar", email = "nik@nkantar.com" }
+]
+dependencies = [
+    "django>=5.0.7",
+]
+readme = "README.md"
+requires-python = ">= 3.12"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
