@@ -30,6 +30,7 @@ pycparser==2.22
     # via cffi
 pyjwt==2.8.0
     # via django-allauth
+python-dotenv==1.0.1
 requests==2.32.3
     # via django-allauth
     # via requests-oauthlib
